@@ -1,56 +1,128 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio | Seu Nome</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Maria Luiza</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>👋 Oi, eu sou a Malu Paes</h1>
-    <p>Desenvolvedora Backend em formação | .NET | C# | SQL | APIs REST</p>
     <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
+      <ul>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#conhecimentos">Conhecimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="sobre">
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Olá, me chamo Maria Luiza</h1>
+      <p>Desenvolvedora Back-end | C# | .NET | MySQL | API's </p>
+      <button class="btn liquid" onclick="location.href='#contato'">
+        <span>Fale comigo</span>
+      </button>
+    </div>
+    <div class="hero-image">
+      <img src="asssets/images/computer-engineer.png" alt="computer-engineer">
+    </div>
+  </section>    
+
+<section id="sobre">
+    <div class="sobre-image">
+        <img id="sobre-img" src="asssets/images/perfil.jpg" alt="Maria Luiza">
+    </div>
+    <div class="sobre-texto">
     <h2>Sobre mim</h2>
     <p>
-      Sou formada em Análise e Desenvolvimento de Sistemas e apaixonada por tecnologia. 
-      Tenho experiência prática com C#, orientação a objetos, APIs REST, persistência de dados 
-      e boas práticas como SOLID e Clean Code.
+      Me chamo Maria Luiza, sou formada em Análise e Desenvolvimento de Sistemas pela FATEC de Ribeirão Preto e tenho técnico em Mecatrônica. Apaixonada por tecnologia desde cedo, tenho experiência profissional em eletrônica, onde atuei por mais de dois anos, atuando com integração de hardware e software.
+      <br><br>
+      Atualmente, meu foco é o desenvolvimento Backend utilizando o framework .NET. Venho aprofundando meus conhecimentos em C#, POO, padrões de projeto e boas práticas em projetos práticos. Estou trabalhando em sistemas que envolvem manipulação de dados, criação de APIs com ASP.NET Core e desenvolvimento de soluções escaláveis, robustas e bem estruturadas.
+      <br><br>
+      Sou uma profissional dedicada e curiosa, sempre em busca de aprendizado contínuo. Meu objetivo é crescer como desenvolvedora Backend, contribuindo para projetos inovadores e de alta qualidade utilizando todo o potencial do ecossistema .NET.
     </p>
-  </section>
+  </div>
 
+
+</section>
   <section id="projetos">
     <h2>Projetos</h2>
-    <div class="projetos-grid">
-      <div class="projeto">
-        <h3>💪 FitTrack</h3>
-        <p>App desktop em C# para acompanhar treinos e progresso físico. Persistência em JSON e arquitetura MVP.</p>
-        <a href="https://github.com/seuusuario/FitTrack" target="_blank">Ver no GitHub</a>
+    <div class="projects-grid" id="projects-container">
+      <!-- Projetos serão carregados dinamicamente -->
+    </div>
+  </section>
+
+  <section id="conhecimentos">
+    <h2>Conhecimentos</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <h3>C# / .NET</h3>
+        <p>Desenvolvimento orientado a objetos e aplicações Windows Forms</p>
       </div>
-      <div class="projeto">
-        <h3>🎮 RetroStation</h3>
-        <p>Sistema de emulação customizado em Linux/Orange Pi, integrando scripts bash e manutenção de ROMs.</p>
-        <a href="https://github.com/seuusuario/RetroStation" target="_blank">Ver no GitHub</a>
+      <div class="skill">
+        <h3>Linux / Bash</h3>
+        <p>Automação e scripts para sistemas embarcados</p>
+      </div>
+      <div class="skill">
+        <h3>C++ / Eletrônica</h3>
+        <p>Manutenção de hardware, soldagem e firmware</p>
+      </div>
+      <div class="skill">
+        <h3>HTML / CSS</h3>
+        <p>Layouts responsivos e UI simples</p>
+      </div>
+      <div class="skill">
+        <h3>Git / GitHub</h3>
+        <p>Controle de versão e colaboração</p>
       </div>
     </div>
   </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>📧 <a href="mailto:malu@email.com">malu@email.com</a></p>
-    <p>💼 <a href="https://www.linkedin.com/in/seuusuario" target="_blank">LinkedIn</a></p>
-    <p>🐙 <a href="https://github.com/seuusuario" target="_blank">GitHub</a></p>
-  </section>
+<section id="contato">
+  <h2>Fale Comigo</h2>
+  <div class="contato-botoes">
+    <a href="https://wa.me/5516992901116?text=Olá!%20Gostaria%20de%20entrar%20em%20contato."
+       target="_blank"
+       class="btn-icon btn-wts-img">
+      <img src="asssets/icons/whats.svg" alt="WhatsApp">
+    </a>
+
+    <a href="mailto:marialuizapaes22@gmail.com"
+       target="_blank"
+       class="btn-icon btn-email-img">
+      <img src="asssets/icons/gmail_old.svg" alt="Email">
+    </a>
+
+    <a href="https://www.linkedin.com/in/marialuizapaes/"
+       target="_blank"
+       class="btn-icon btn-linkedin-img">
+      <img src="asssets/icons/linkedin.svg" alt="LinkedIn">
+    </a>
+
+    <a href="https://github.com/MaaLuu21"
+       target="_blank"
+       class="btn-icon btn-git-img">
+      <img src="asssets/images/icons8-github.png" alt="GitHub">
+    </a>
+  </div>
+</section>
 
   <footer>
-    <p>© 2025 Malu Paes • Desenvolvido com ❤️ e C#</p>
+    <p>©2025 por Maria Luiza Paes Martins. Todos os direitos reservados.</p>
   </footer>
+
+  <script>
+  window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    header.classList.toggle('scrolled', window.scrollY > 50);
+  });
+  </script>
+
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
