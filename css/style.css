@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color:#ffffff;
-  background:#161824;
+  background:#1d1f2d;
   padding-top: 30px;
 }
 
@@ -91,6 +91,7 @@ nav a {
   padding:2rem;
   max-width:900px;
   margin:auto;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -131,12 +132,14 @@ h2 {
   line-height: 1.6;
 }
 
-
 .skills-list {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:1.5rem;
-  text-align:center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  justify-items: center; 
+  text-align: center;
+  
 }
 
 .skill {
@@ -146,16 +149,45 @@ h2 {
   box-shadow:0 2px 6px rgba(0,0,0,0.1);
 }
 
+
+.skill img {
+  display: inline-block;
+  width: 55px;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.skill:last-child img {
+  display: inline-block;
+  width: 50px;
+  margin: 0 5px;
+}
+
+.project-front img {
+  width:50%;
+  border-radius:6px;
+  margin-bottom:0.5rem;
+}
+
+
 #contato {
+  background: #1d1f2d; /* mantém continuidade visual */
+  padding: 4rem 2rem;
+  margin-top: 0; /* remove espaçamento duplicado */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 2rem;
-  background: #0F111A;
   color: #ffffff;
   text-align: center;
   gap: 20px;
+}
+
+.contato-botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* espaçamento uniforme entre ícones */
 }
 
 #wts-img {
@@ -166,6 +198,7 @@ h2 {
 #github-img {
   max-width:100px;
   border-radius:50%;
+  border-color: #fff;
 }
 #email-img {
   max-width:100px;
@@ -235,7 +268,7 @@ h2 {
   justify-content: center;
   gap: 8px; 
   background-color: transparent;
-  border: 2px solid #333;
+  border: 2px solid #ffffff;
   border-radius: 50px;
   padding: 10px 16px;
   color: #333;
@@ -316,6 +349,6 @@ footer {
   text-align:center;
   padding:1rem;
   background:#000000;
-  margin-top:2rem;
+  
   color:#777;
 }
