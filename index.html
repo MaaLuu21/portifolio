@@ -1,148 +1,259 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Maria Luiza</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Maria Luiza</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#conhecimentos">Conhecimentos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+    
+    <header>
+        <div class="logo">Maria Luiza</div> 
+        <button class="menu-toggle" aria-label="Abrir Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="desktop-nav"> 
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Olá, me chamo Maria Luiza</h1>
-      <p>Desenvolvedora Back-end | C# | .NET | SQL | API's </p>
-      <button class="btn liquid" onclick="location.href='#contato'">
-        <span>Fale comigo</span>
-      </button>
-    </div>
-    <div class="hero-image">
-      <img src="asssets/images/computer-engineer.png" alt="computer-engineer">
-    </div>
-  </section>    
+    <div class="full-screen-menu" id="full-screen-menu">
+        <button class="close-menu" aria-label="Fechar Menu">×</button>
+        <nav>
+            <ul>
+                <li><a href="#hero" class="menu-link">Início</a></li>
+                <li><a href="#sobre" class="menu-link">Sobre mim</a></li>
+                <li><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                <li><a href="#contato" class="menu-link">Contato</a></li>
+                <li>
+                    <a href="#contato" class="menu-link destaque btn liquid" style="margin-top: 2rem;">
+                        <span>Fale comigo</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Olá, me chamo Maria Luiza</h1>
+            <p>Desenvolvedora Back-end | C# | .NET | ASP.NET | SQL | API's </p>
+            <button class="btn liquid" onclick="location.href='#contato'">
+                <span>Fale comigo</span>
+            </button>
+        </div>
+        <div class="hero-image">
+            <img src="asssets/images/computer-engineer.png" alt="computer-engineer">
+        </div>
+    </section> 
 
-<section id="sobre">
-    <div class="sobre-image">
-        <img id="sobre-img" src="asssets/images/perfil.jpg" alt="Maria Luiza">
-    </div>
-    <div class="sobre-texto">
-    <h2>Sobre mim</h2>
-    <p>
-      Me chamo Maria Luiza, sou formada em Análise e Desenvolvimento de Sistemas pela FATEC de Ribeirão Preto e tenho técnico em Mecatrônica. Apaixonada por tecnologia desde cedo, tenho experiência profissional em eletrônica, onde atuei por mais de dois anos, atuando com integração de hardware e software.
-      <br><br>
-      Atualmente, meu foco é o desenvolvimento Backend utilizando o framework .NET. Venho aprofundando meus conhecimentos em C#, POO, padrões de projeto e boas práticas em projetos práticos. Estou trabalhando em sistemas que envolvem manipulação de dados, criação de APIs com ASP.NET Core e desenvolvimento de soluções escaláveis, robustas e bem estruturadas.
-      <br><br>
-      Sou uma profissional dedicada e curiosa, sempre em busca de aprendizado contínuo. Meu objetivo é crescer como desenvolvedora Backend, contribuindo para projetos inovadores e de alta qualidade utilizando todo o potencial do ecossistema .NET.
-    </p>
-  </div>
+    <section id="sobre">
+        <div class="sobre-image">
+            <img id="sobre-img" src="asssets/images/perfil.jpg" alt="Maria Luiza">
+        </div>
+        <div class="sobre-texto">
+            <h2>Sobre mim</h2>
+            <p>
+                Me chamo Maria Luiza, sou formada em Análise e Desenvolvimento de Sistemas pela FATEC de Ribeirão Preto e tenho técnico em Mecatrônica pela ETEC de Ribeirão Preto. Sou apaixonada por tecnologia desde cedo, autodidata e sempre em busca de aprendizado contínuo, me desafiando a estudar e aplicar novos conhecimentos.
+                <br><br>
+                Tenho experiência profissional na área de eletrônica, com mais de dois anos atuando na integração de hardware e software, além de experiências em atendimento ao público e em projetos diversos, como eventos e recreação infantil, que contribuíram para minha maturidade profissional e capacidade de adaptação.
+                <br><br>
+                Atualmente, meu foco é o desenvolvimento Backend utilizando o framework .NET. Venho aprofundando meus conhecimentos em C#, Programação Orientada a Objetos, padrões de projeto e boas práticas de desenvolvimento, aplicando esses conceitos em projetos práticos que envolvem manipulação de dados como Entity Framework junto ao MySQL, criação de APIs RESTful com ASP.NET Core e desenvolvimento de soluções escaláveis, robustas e bem estruturadas.
+                <br><br>
+                Sou dedicada, curiosa e motivada, com objetivo de crescer como desenvolvedora Backend e contribuir para projetos inovadores e de alta qualidade no ecossistema .NET.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projects-grid" id="projects-container">
+            </div>
+    </section>
+
+    <section id="conhecimentos">
+        <h2>Conhecimentos</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <div class="icons">
+                    <img src="asssets/icons/csharp-plain.svg" alt="C#">
+                    <img src="asssets/icons/dotnetcore-original.svg" alt=".NET Core">
+                    <img id="project" src="asssets/icons/dot-net-original.svg" alt="ASP.NET">
+                </div>
+                <h3>C# / .NET Core / ASP .NET</h3>
+                <p>
+                    Desenvolvimento de sistemas backend escaláveis com C#, aplicando POO e padrões de projeto. Experiência em APIs RESTful, integração com bancos via Entity Framework Core, operações CRUD com LINQ e Migrations, testes automatizados e boas práticas de segurança e performance.
+                </p>
+            </div>
+
+            <div class="skill">
+                <img id="project" src="asssets/icons/oracle-original.svg" alt="oracle">
+                <h3>SQL Oracle</h3>
+                <p>Elaboração de consultas e queries em bancos de dados Oracle. Certificado de Database Design and Programming with SQL </p>
+            </div>
+            <div class="skill">
+                <img id="project" src="asssets/icons/mysql-original-wordmark.svg" alt="mysql">
+                <h3>MySQL</h3>
+                <p>Elaboração de consultas e queries em bancos de dados. Integradas ao uso do Entity Framework para acesso e manipulação de dados.</p>
+            </div>
+            <div class="skill">
+                <img id="project" src="asssets/icons/git-original.svg" alt="git">
+                <h3>Git / GitHub</h3>
+                <p>Controle de versão, colaboração em projetos e gestão de branches utilizando Git e GitHub.</p>
+            </div>
+            <div class="skill">
+                <img id="project" src="asssets/icons/linux-original.svg" alt="linux">
+                <h3>Linux</h3>
+                <p>Uso avançado do sistema operacional, incluindo linha de comando, execução de scripts bash, edição de arquivos com Vim e Nano, compilação de sistemas do zero e experiência com retroemulação.
+                </p>
+            </div>
+            <div class="skill">
+                <img id="project" src="asssets/icons/cplusplus-original.svg" alt="ASP.NET">
+                <h3>C++</h3>
+                <p>Domínio intermediário para manutenção de hardware, desenvolvimento de lógica e aplicação em sistemas IoT.</p>
+            </div>
+            <div class="skill">
+                <img id="sobre-img" src="asssets/icons/html5-original.svg" alt="front">
+                <img id="sobre-img" src="asssets/icons/css3-original.svg" alt="front">
+                <img id="sobre-img" src="asssets/icons/javascript-original.svg" alt="front">
+                <h3>Front-end</h3>
+                <p>Conhecimentos básicos de JavaScript, HTML e CSS</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Fale Comigo</h2>
+        <div class="contato-botoes">
+            <a href="https://wa.me/5516992901116?text=Olá!%20Gostaria%20de%20entrar%20em%20contato."
+                target="_blank"
+                class="btn-icon btn-wts-img">
+                <img src="asssets/icons/whats.svg" alt="WhatsApp">
+            </a>
+
+            <a href="mailto:marialuizapaes22@gmail.com"
+                target="_blank"
+                class="btn-icon btn-email-img">
+                <img src="asssets/icons/gmail_old.svg" alt="Email">
+            </a>
+
+            <a href="https://www.linkedin.com/in/marialuizapaes/"
+                target="_blank"
+                class="btn-icon btn-linkedin-img">
+                <img src="asssets/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <a href="https://github.com/MaaLuu21"
+                target="_blank"
+                class="btn-icon btn-git-img">
+                <img src="asssets/images/icons8-github.png" alt="GitHub">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>©2025 por Maria Luiza Paes Martins. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+    
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        const menu = document.querySelector('.desktop-nav ul');
+
+        // Cria o indicador dinamicamente
+        const indicator = document.createElement('div');
+        indicator.classList.add('indicator');
+        menu.appendChild(indicator);
+
+        const links = menu.querySelectorAll('li a');
+
+        links.forEach(link => {
+            link.addEventListener('mouseenter', (e) => {
+                const rect = e.target.getBoundingClientRect();
+                const menuRect = menu.getBoundingClientRect();
+                indicator.style.width = `${rect.width}px`;
+                indicator.style.left = `${rect.left - menuRect.left}px`;
+            });
+
+            link.addEventListener('mouseleave', () => {
+                indicator.style.width = '0';
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const closeMenuButton = document.querySelector('.close-menu');
+            const fullScreenMenu = document.getElementById('full-screen-menu');
+            const menuLinks = document.querySelectorAll('.full-screen-menu .menu-link');
+
+            // Abre o menu
+            menuToggle.addEventListener('click', function() {
+                fullScreenMenu.classList.add('open');
+                document.body.style.overflow = 'hidden'; 
+            });
+
+            // Fecha o menu
+            closeMenuButton.addEventListener('click', function() {
+                fullScreenMenu.classList.remove('open');
+                document.body.style.overflow = ''; 
+            });
+            
+            // Fecha o menu ao clicar em um link
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    fullScreenMenu.classList.remove('open');
+                    document.body.style.overflow = '';
+                });
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const closeMenuButton = document.querySelector('.close-menu');
+    const fullScreenMenu = document.getElementById('full-screen-menu');
+    const menuLinks = document.querySelectorAll('.full-screen-menu .menu-link');
+
+    // Abre o menu
+    menuToggle.addEventListener('click', function() {
+        fullScreenMenu.classList.add('open');
+        document.body.style.overflow = 'hidden'; // Evita rolagem do body
+    });
+
+    // Fecha o menu
+    closeMenuButton.addEventListener('click', function() {
+        fullScreenMenu.classList.remove('open');
+        document.body.style.overflow = ''; // Restaura a rolagem do body
+    });
+    
+    // Fecha o menu ao clicar em um link
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            fullScreenMenu.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+    });
+});
+    </script>
 
 
-</section>
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <div class="projects-grid" id="projects-container">
-      <!-- Projetos serão carregados dinamicamente -->
-    </div>
-  </section>
-
-  <section id="conhecimentos">
-    <h2>Conhecimentos</h2>
-    <div class="skills-list">
-    <div class="skill">
-      <div class="icons">
-        <img src="asssets/icons/csharp-plain.svg" alt="C#">
-        <img src="asssets/icons/dotnetcore-original.svg" alt=".NET Core">
-      </div>
-    <h3>C# / .NET Core</h3>
-    <p>Desenvolvimento OO e criação de APIs RESTful robustas.</p>
-  </div>
-      <div class="skill">
-        <img id="project" src="asssets/icons/dot-net-original.svg" alt="ASP.NET">
-        <h3>C++ / Eletrônica</h3>
-        <p>Manutenção de hardware, soldagem e firmware</p>
-      </div>
-      <div class="skill">
-        <img id="project" src="asssets/icons/oracle-original.svg" alt="oracle">
-        <h3>HTML / CSS</h3>
-        <p>Layouts responsivos e UI simples</p>
-      </div>
-      <div class="skill">
-        <img id="project" src="asssets/icons/mysql-original-wordmark.svg" alt="mysql">
-        <h3>Git / GitHub</h3>
-        <p>Controle de versão e colaboração</p>
-      </div>
-      <div class="skill">
-        <img id="project" src="asssets/icons/git-original.svg" alt="git">
-        <h3>Git / GitHub</h3>
-        <p>Controle de versão e colaboração</p>
-      </div>
-      <div class="skill">
-        <img id="project" src="asssets/icons/linux-original.svg" alt="linux">
-        <h3>Git / GitHub</h3>
-        <p>Controle de versão e colaboração</p>
-      </div>
-      <div class="skill">
-        <img id="sobre-img" src="asssets/icons/html5-original.svg" alt="front">
-        <img id="sobre-img" src="asssets/icons/css3-original.svg" alt="front">
-        <img id="sobre-img" src="asssets/icons/javascript-original.svg" alt="front">
-        <h3>Git / GitHub</h3>
-        <p>Controle de versão e colaboração</p>  
-      </div>
-    </div>
-  </section>
-
-<section id="contato">
-  <h2>Fale Comigo</h2>
-  <div class="contato-botoes">
-    <a href="https://wa.me/5516992901116?text=Olá!%20Gostaria%20de%20entrar%20em%20contato."
-       target="_blank"
-       class="btn-icon btn-wts-img">
-      <img src="asssets/icons/whats.svg" alt="WhatsApp">
-    </a>
-
-    <a href="mailto:marialuizapaes22@gmail.com"
-       target="_blank"
-       class="btn-icon btn-email-img">
-      <img src="asssets/icons/gmail_old.svg" alt="Email">
-    </a>
-
-    <a href="https://www.linkedin.com/in/marialuizapaes/"
-       target="_blank"
-       class="btn-icon btn-linkedin-img">
-      <img src="asssets/icons/linkedin.svg" alt="LinkedIn">
-    </a>
-
-    <a href="https://github.com/MaaLuu21"
-       target="_blank"
-       class="btn-icon btn-git-img">
-      <img src="asssets/images/icons8-github.png" alt="GitHub">
-    </a>
-  </div>
-</section>
-
-  <footer>
-    <p>©2025 por Maria Luiza Paes Martins. Todos os direitos reservados.</p>
-  </footer>
-
-  <script>
-  window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
-    header.classList.toggle('scrolled', window.scrollY > 50);
-  });
-  </script>
-
-  <script src="js/projects.js"></script>
-  <script src="js/main.js"></script>
 </body>
 </html>

@@ -2,19 +2,21 @@
   {
     "title": "Progress Manager",
     "description": "O Progress Manager é uma aplicação console desenvolvida em C# para gerenciar e acompanhar o progresso físico dos usuários. O sistema permite registrar e atualizar medidas corporais, calcular o IMC e realizar operações completas de cadastro, consulta, edição e exclusão de dados, oferecendo uma forma simples e organizada de monitorar a evolução ao longo do tempo.",
-    "image": "asssets/icons/csharp-plain.svg",
+    "image": "asssets/gifs/LOGIN.gif",
     "link": "https://github.com/MaaLuu21/ProgressManager?tab=readme-ov-file"
   },
   {
     "title": "Leitura acompanhada",
-    "description": "Leitura Acompanhada é um sistema em C# que funciona como uma biblioteca digital. Ele permite cadastrar livros, registrar leituras e acompanhar o progresso de cada um, garantindo que apenas uma leitura esteja ativa por vez.Os usuários podem buscar livros por título, autor ou gênero, acompanhar seu histórico de leituras e marcar livros como concluídos ao final da leitura, simulando a devolução. O sistema organiza tudo de forma simples, tornando fácil gerenciar livros e acompanhar o que está sendo lido.",
-    "image": "asssets/icons/csharp-plain.svg",
+    "description": "Leitura Acompanhada é uma aplicação console desenvolvida em C# que funciona como uma biblioteca digital. Ele permite cadastrar livros, registrar leituras e acompanhar o status de leitura de cada um, garantindo que apenas uma leitura esteja ativa por vez. Os usuários podem buscar livros por título, autor ou gênero, acompanhar seu histórico de leituras e marcar livros como concluídos ao final da leitura, simulando a devolução. O sistema organiza tudo de forma simples, tornando fácil gerenciar livros e acompanhar o que está sendo lido.",
+    "image": "asssets/gifs/HistoricoDeLeituras.gif",
     "link": "https://github.com/MaaLuu21/LeituraAcompanhada"
   },
   {
     "title": "Cash Flow",
-    "description": "Manutenção e scripts para impressora UV e placas eletrônicas.",
-    "image": "asssets/icons/csharp-plain.svg",
+    "description": "CashFlow é uma API REST criada para ajudar no acompanhamento das suas despesas. Com ela, você consegue controlar seus gastos de forma organizada e ainda gerar relatórios em PDF ou Excel, facilitando o acompanhamento e a análise das suas finanças.",
+    "image": "asssets/gifs/salvarDespesas.gif",
     "link": "https://github.com/MaaLuu21/CashFlow"
   }
+  
+  
 ]
