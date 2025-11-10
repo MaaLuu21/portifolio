@@ -20,7 +20,7 @@
   {
     "title": "API Catálogo",
     "description": "API desenvolvida como projeto de estudo para consolidar o aprendizado sobre operações CRUD e os principais procedimentos HTTP (GET, POST, PUT, DELETE). O projeto utiliza o Entity Framework Core para o mapeamento objeto-relacional e o MySQL como banco de dados, com controle de versões de schema por meio de Migrations. O objetivo foi compreender na prática o funcionamento de uma API RESTful, incluindo boas práticas de organização, persistência de dados e manipulação de recursos.",
-    "image": "asssets/gifs/salvarDespesas.gif",
+    "image": "asssets/images/catalogo.png",
     "link": "https://github.com/MaaLuu21/APICatalogo"
   }
   
